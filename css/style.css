@@ -705,10 +705,6 @@ body {
   width: 189px;
   height: 190px;
 }
-.main__container .main__seventh__card__contaier .main__card__info .main__seventh__conatiner__picture del {
-  color: #6C7178;
-  font-size: 12px;
-}
 .main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info {
   width: 190px;
   height: 220px;
@@ -779,4 +775,76 @@ body {
   border: #F5F6F6;
   border-radius: 15px;
   background-color: #F5F6F6;
+}
+.main__container .main__eight__card__container {
+  width: 1440px;
+  height: 172px;
+  margin: 0px 28px;
+  padding: 0px 15px;
+  margin-top: 100px;
+}
+.main__container .main__eight__card__container h2 {
+  color: #1D232F;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.main__container .main__eight__card__container .main__logo__container {
+  width: 1440px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__container .main__eight__card__container .main__logo__container .logo__picture__nav {
+  border: 1px solid #F5F5F6;
+  border-radius: 20px;
+  width: 227px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__container .main__eight__card__container .main__logo__container .logo__picture__nav img {
+  width: 128px;
+  height: 64px;
+}
+.main__container .main__nine__card__container h2 {
+  font-size: 24px;
+  color: #1D232F;
+}
+.main__container .main__nine__card__container .main__card__container {
+  width: 1410px;
+  height: 262px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__container .main__nine__card__container .main__card__container .mediapark__info {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border: 1px solid #F5F5F6;
+  border-radius: 20px;
+  width: 227px;
+  height: 262px;
+  padding: 20px;
+}
+.main__container .main__nine__card__container .main__card__container .mediapark__info span {
+  width: 48px;
+  height: 48px;
+  border-radius: 15px;
+  padding: 10px;
+  background-color: #FDF5F3;
+}
+.main__container .main__nine__card__container .main__card__container .mediapark__info span img {
+  width: 24px;
+  height: 24px;
+}
+.main__container .main__nine__card__container .main__card__container .mediapark__info h3 {
+  font-size: 16px;
+  color: #000;
+}
+.main__container .main__nine__card__container .main__card__container .mediapark__info p {
+  color: #6C7178;
+  font-size: 14px;
 }/*# sourceMappingURL=style.css.map */
