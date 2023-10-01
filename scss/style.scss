@@ -694,4 +694,106 @@ body{
 
     }
 }
+.main__seventh__card__contaier {
+    width: 1440px;
+    height: 552px;
+    display: flex;
+    margin: 0px 28px;
+    padding: 0px 15px;
+    justify-content: space-between;
+    flex-direction: column;
+         h2 {
+            color: #1D232F;
+            font-size: 24px;
+         }
+    .main__card__info {
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+    
+        .main__seventh__conatiner__picture {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+                width: 189px;
+                height: 190px;
+            }
+            
+        }
+        .main__seventh__card__container__info {
+            width: 190px;
+            height: 220px;
+            padding-top: 20px;
+            display: flex;
+            flex-direction: column;
+          span {
+            margin-top: 20px;
+            b {
+                font-size: 20px;
+                color: #1D242F;
+                
+             }
+          }
+            .number {
+                border: 1px solid #0b2b5e;
+                border-radius: 10px;
+                width: 149px;
+                height: 28px;
+                padding: 4px 12px;
+                color: #0b2b5e;
+                font-size: 14px;
+            }
+            p {
+                color: #6C7178;
+                margin: 12px 0px 0px;
+                font-size: 14px;
+            }
+            .star {
+                display: flex;              
+                align-items: center;
+                p {
+                    margin-left: 10px;
+                    margin-bottom: 20px;
+                }
+            }
+            .icon__card__footer {
+                display: flex;
+                align-items: center;
+                gap: 10px;
+          .shopping {
+            width: 59px;
+            height: 50px;
+            background-color: #D92E15;
+            border-radius:15px;
+            display: flex;
+            align-content:center;
+            padding: 10px 14px; 
+            i {
+                color: #fff;
+                margin-top: 3px;
+                margin-left: 3px;
+            }
+          }
+          .second__icon__card__footer  {
+               width: 50px;
+               height: 50px;
+               padding: 10px 14px; 
+               background-color: #F5F6F6;
+               border:#F5F6F6;
+               border-radius: 15px;
+          }
+          .third__icon__card__footer {
+            width: 50px;
+            height: 50px;
+            padding: 10px 14px; 
+             border :#F5F6F6;
+             border-radius: 15px;
+             background-color: #F5F6F6;
+          }
+
+        }
+    }
+    }
+}
 }

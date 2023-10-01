@@ -677,4 +677,106 @@ body {
 .main__container .main__sexth__card__container .main__sexth__laptops .laptop__bottom__text .Pay__in__installments .month {
   border: none;
   background-color: transparent;
+}
+.main__container .main__seventh__card__contaier {
+  width: 1440px;
+  height: 552px;
+  display: flex;
+  margin: 0px 28px;
+  padding: 0px 15px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.main__container .main__seventh__card__contaier h2 {
+  color: #1D232F;
+  font-size: 24px;
+}
+.main__container .main__seventh__card__contaier .main__card__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__conatiner__picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__conatiner__picture img {
+  width: 189px;
+  height: 190px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__conatiner__picture del {
+  color: #6C7178;
+  font-size: 12px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info {
+  width: 190px;
+  height: 220px;
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info span {
+  margin-top: 20px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info span b {
+  font-size: 20px;
+  color: #1D242F;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .number {
+  border: 1px solid #0b2b5e;
+  border-radius: 10px;
+  width: 149px;
+  height: 28px;
+  padding: 4px 12px;
+  color: #0b2b5e;
+  font-size: 14px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info p {
+  color: #6C7178;
+  margin: 12px 0px 0px;
+  font-size: 14px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .star {
+  display: flex;
+  align-items: center;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .star p {
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .icon__card__footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .icon__card__footer .shopping {
+  width: 59px;
+  height: 50px;
+  background-color: #D92E15;
+  border-radius: 15px;
+  display: flex;
+  align-content: center;
+  padding: 10px 14px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .icon__card__footer .shopping i {
+  color: #fff;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .icon__card__footer .second__icon__card__footer {
+  width: 50px;
+  height: 50px;
+  padding: 10px 14px;
+  background-color: #F5F6F6;
+  border: #F5F6F6;
+  border-radius: 15px;
+}
+.main__container .main__seventh__card__contaier .main__card__info .main__seventh__card__container__info .icon__card__footer .third__icon__card__footer {
+  width: 50px;
+  height: 50px;
+  padding: 10px 14px;
+  border: #F5F6F6;
+  border-radius: 15px;
+  background-color: #F5F6F6;
 }/*# sourceMappingURL=style.css.map */
