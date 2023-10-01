@@ -14,6 +14,9 @@
 
 body{
     font-family: 'Gilroy';
+    li {
+        list-style: none;
+    }
 }
 .container {
     width: 100%;
@@ -22,8 +25,33 @@ body{
     height: auto;
     margin: 0 auto;
 }
+    .button {
+        &:hover{
+            background-color: #7a1708;
+        }
+       
+    } 
+a {
+    cursor: pointer;
+    &:hover {
+        color: #000;
+        transition: all;
+        font-weight: 500;
+    }
+
+    
+}
+span {
+    cursor: pointer;
+    &:hover {
+        color: #000;
+        transition: all;
+        font-weight: 500;
+    }
+}
 // header scss 
 .header__container {
+
     .header__nav__info {
         @extend %felx;
         justify-content: space-between;
@@ -31,6 +59,7 @@ body{
         height: 30px;
         padding: 10px 15px;
         font-size: 12px;
+        
         .header__servise {
             display: flex;
             align-items: center;
@@ -96,9 +125,10 @@ body{
         align-items: center;
         justify-content: space-between;
         width: 1440px;
-        height: 72px;
-        // margin: 0px 28px ;
+        height: 100px;
+        
         padding: 10px 15px;
+        background-color:#FFF;
         img {
               width: 155px;
               height: 72px;
@@ -189,6 +219,22 @@ body{
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
+    a {
+        cursor: pointer;
+        &:hover {
+            color: #000;
+            transition: all;
+            font-size: 18px;
+        }
+    }
+    button {
+        cursor: pointer;
+        &:hover {
+            color: #df3535;
+            transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+        
+        }
+    }
     .main__first__card__container {
         width: 1440px;
         height: 144px;
@@ -909,6 +955,11 @@ body{
 }
 }
 .footer__container {
+    a {
+        &:hover {
+            color: #FFF;
+        }
+    }
     width: 1496px;
     height: 406px;
     margin-top: 17px;
@@ -976,14 +1027,22 @@ body{
                     }
                 }
 
+
             }
-            .footer__info {
-                width: 196px;
-                height: 220px;
-                li {
-                    list-style: none;
-                }
-           }
-           }
+        
         }
     }
+
+        .nav__footer__info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            color: #FFF;
+            padding: 20px;
+            background-color: #212B39;
+            width: 1496px;
+            height: 74px;
+            margin-top: 45px;
+        }
+    }
+

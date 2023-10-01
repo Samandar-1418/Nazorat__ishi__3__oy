@@ -44,6 +44,39 @@
     <!-- style css  -->
     <link rel="stylesheet" href="./css/style.css">
     <title>Nazorat ishi</title>
+    <style>
+        .footer__info, .services , .buyers{
+            width: 196px;
+            height: 220px ;
+
+        }
+        .footer__info a, .services a , .buyers a {
+            color: #adadb3;
+            font-size: 16px;
+            font-family: "Gilroy";
+            font-weight: 600;
+        }
+        .footer__info, .services , .buyers h4 {
+            color:#FFF;
+        }
+         .buyers li {
+            margin-top: 12px;
+        }
+        .footer__info li {
+            margin-top: 12px;
+        }
+        .services li {
+            margin-top: 12px;
+        }
+             .footer__container a{
+                text-decoration: none;
+        }
+        .Picture__container img {
+            width: 1440px;
+            height: 300px;
+            border-radius: 20px;
+        }
+    </style>
 </head>
 <body>
     <header class="header__container container">
@@ -133,6 +166,9 @@
         </nav>
     </header>
     <main class="main__container container">
+        <div class="Picture__container">
+            <img src="./images/rasmman.webp" alt="rasm">
+        </div>
         <div class="main__first__card__container">
             <h2>Ommabop Kategoriyalar</h2>
             <div class="first__card__container">
@@ -1279,7 +1315,15 @@
             </div>
         </div>
     </nav>
-        <div class="nav__footer__info"></div>
+        <div class="nav__footer__info">
+            <div>© Все права защищены.</div>
+            <div>
+                <i class="fa-brands fa-telegram"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-square-facebook"></i>
+                 </div>
+        </div>
     </footer>
 </body>
 </html>
