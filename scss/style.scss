@@ -872,15 +872,16 @@ body{
      }
     }
 }
-.main__ten__container {
+.main__tenth__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 1440px;
+    width: 1410px;
     height: 330px;
     margin-top: 40px;
+    
     .nav__info {
-        width: 638px;
+        width: 608px;
         height: 243px;
         padding: 0px 0px 45px;
         display: flex;
@@ -890,6 +891,10 @@ body{
             display: flex;
             gap: 15px;
         }
+        h2 {
+            font-size: 32px;
+            color: #222;
+        }
         p {
             height: 72px;
             width: 550px;
@@ -897,5 +902,88 @@ body{
             font-size: 16px;
         }
     }
+    .galery {
+        width: 484px;
+        height: 367px;
+    }
 }
 }
+.footer__container {
+    width: 1496px;
+    height: 406px;
+    margin-top: 17px;
+    background-color: #1D242F;
+    .link__info {
+        display: flex;
+        align-items: center;
+        gap: 64px;
+        padding: 30px 50px;
+        .Mediapark__info__footer {
+         width: 320px;
+         height: 220px;
+         display: flex;
+         gap: 20px;
+         flex-direction: column;
+         h2 {
+            width: 155px;
+            height: 20px;
+            color:#fff;
+            font-size: 24px;
+         }
+         p {
+            color: #fff;
+            font-size: 14px;
+         }
+         a {
+            text-decoration: none;
+            color:#FFF;
+            font-size: 16px;
+         }
+         h4 {
+            color:#FFF;
+            font-size: 16px;
+         }
+        }
+        
+        .link__container {
+            display: flex;
+            align-items:center;
+            gap: 32px;
+            
+            .paymet {
+                width: 341px;
+                height: 220px;
+                h5 {
+                    color: #fff;
+                    font-size: 14px;
+                }
+                .paymet__picture {
+                    width: 341px;
+                    height: 185px;
+                    display: flex;
+                    gap: 12px;
+                    flex-wrap: wrap;
+                    div {
+                        width: 144px;
+                        margin-top: 10px;
+                        height: 53px;
+                        background-color: #212B39;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 15px;
+                        padding: 5px;
+                    }
+                }
+
+            }
+            .footer__info {
+                width: 196px;
+                height: 220px;
+                li {
+                    list-style: none;
+                }
+           }
+           }
+        }
+    }
